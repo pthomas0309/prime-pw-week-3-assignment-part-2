@@ -27,7 +27,7 @@ for ( let i=3; i<6; i++ ) {
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-// we have to write a conditional that checks for numbers divisible by 2
+// we have to write a conditional that checks for numbers divisible by 2 with a remainder of 0
 for ( let i=2; i<11; i++ ) {
   if( [ i % 2 ] == 0 ) {
     console.log( i );
@@ -35,7 +35,10 @@ for ( let i=2; i<11; i++ ) {
 }
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
+for ( let i=5; i>=0; i-- ){
+  console.log( i );
 
+}
 
 // 2. For of loops
 console.log('---- 2. For Of loop ----');
